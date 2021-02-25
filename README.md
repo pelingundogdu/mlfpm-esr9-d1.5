@@ -42,5 +42,8 @@ Tutorial
 $ conda env create -f tgpu.yml
 ```
 
-
-2. Execute R and Pyhon script in *notebook* folder
+2. To execute R and Pyhon script in **_notebooks_** folder
+3. To perform retrival analysis by
+```
+$ ./ retrieval_analysis.sh
+```
