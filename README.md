@@ -8,7 +8,8 @@ This repository consists of python scripts, jupyter notebooks, R scripts, datase
 Project Organization
 ------------------------
 
-    proposed_model
+    proposed_model             <- Project folder
+    │    
     ├── README.md              <- Project details
     ├── data
     │   ├── EXPERIMENT         <- The index information
@@ -39,17 +40,17 @@ Tutorial
 
 1. Create environment
 ```
-$ conda env create -f tgpu.yml
+... $ conda env create -f tgpu.yml
 ```
 
 2. To execute R and Pyhon script in **_notebooks_** folder
 
 3. To perform retrival analysis by
 ```
-proposed_model$ ./ retrieval_analysis.sh
+.../proposed_model$ ./ retrieval_analysis.sh
 ``` 
 
 4. Retrieval Analysis Result
 ```
-proposed_model$ python notebooks/load_retrieval_summary.py retrieval_analysis
+.../proposed_model$ python notebooks/load_retrieval_summary.py retrieval_analysis
 ```
