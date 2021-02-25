@@ -3,10 +3,10 @@
 
 This repository consists of python scripts, jupyter notebooks, R scripts, datasets, source codes, figures, evaluation metrics of the network which are created or obtained for this project.
 
-==============================
+==========================================================================================
 
 Project Organization
-------------
+------------------------
 
     ├── README.md              <- Project details.
     ├── data
@@ -29,6 +29,6 @@ Project Organization
     └── retrieval_analysis.sh  <- retrieval analysis
 --------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-==============================
+==========================================================================================
 
-## TUTORIAL
+Tutorial
