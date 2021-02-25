@@ -37,10 +37,10 @@ Tutorial
 ------------------------
 
 1. Create environment
-------------------------
 
-conda env create -f tgpu.yml
+```
+$ conda env create -f tgpu.yml
+```
 
-------------------------
 
 2. Execute R and Pyhon script in *notebook* folder
