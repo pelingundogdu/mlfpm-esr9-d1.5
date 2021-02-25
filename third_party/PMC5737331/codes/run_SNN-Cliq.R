@@ -1,0 +1,8 @@
+args<-commandArgs(trailingOnly=TRUE)
+print(args)
+header <- read.table(args[1], nrows = 1, header = FALSE, stringsAsFactors = FALSE,row.names=1)
+dat   <- read.table(args[1], skip = 1, header = FALSE,row.names=1)
+colnames( dat ) <- unlist(header)
+dat<-t(dat)
+source("SNN.R")
+SNN(dat, args[2], k=as.numeric(args[3]), distance="euclidean")

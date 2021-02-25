@@ -1,0 +1,4 @@
+The details about third party folders;
+
+Folder name					Paper Link															Datasource link
+PMC5737331				https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5737331/#!po=70.0000	http://sb.cs.cmu.edu/scnn/
