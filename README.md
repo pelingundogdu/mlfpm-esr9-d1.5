@@ -26,9 +26,9 @@ Project Organization
     │
     ├── tgpu.yml               <- Ptyhon environment
     │
-    ├── third_party            <- Source code from reference papers.
-    │   ├── PMC5737331         <- Reference paper details.
-    │   └── third_party.txt    <- Scripts to download or generate data
+    └── third_party            <- Source code from reference papers.
+        ├── PMC5737331         <- Reference paper details.
+        └── third_party.txt    <- Scripts to download or generate data
 ------------------------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 ==========================================================================================
