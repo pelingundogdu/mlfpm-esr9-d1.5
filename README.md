@@ -12,7 +12,7 @@ Project Organization
     │
     ├── data
     │   ├── EXPERIMENT         <- The index information
-    │   ├── geneSCF            <- Pathway information from [geneSCF](https://github.com/genescf) tool
+    │   ├── geneSCF            <- Pathway information from geneSCF platform in https://github.com/genescf
     │   ├── pathways           <- The details of pathway information
     │   └── weights            <- The prior biological knowledge which includes into first hidden layer
     │
