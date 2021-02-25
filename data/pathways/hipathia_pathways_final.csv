@@ -1,0 +1,93 @@
+path.id,path.name
+mmu03320,PPAR signaling pathway
+mmu04010,MAPK signaling pathway
+mmu04012,ErbB signaling pathway
+mmu04014,Ras signaling pathway
+mmu04015,Rap1 signaling pathway
+mmu04020,Calcium signaling pathway
+mmu04022,cGMP-PKG signaling pathway
+mmu04024,cAMP signaling pathway
+mmu04062,Chemokine signaling pathway
+mmu04064,NF-kappa B signaling pathway
+mmu04066,HIF-1 signaling pathway
+mmu04068,FoxO signaling pathway
+mmu04071,Sphingolipid signaling pathway
+mmu04072,Phospholipase D signaling pathway
+mmu04110,Cell cycle
+mmu04114,Oocyte meiosis
+mmu04115,p53 signaling pathway
+mmu04150,mTOR signaling pathway
+mmu04151,PI3K-Akt signaling pathway
+mmu04152,AMPK signaling pathway
+mmu04210,Apoptosis
+mmu04211,Longevity regulating pathway
+mmu04213,Longevity regulating pathway - multiple species
+mmu04218,Cellular senescence
+mmu04261,Adrenergic signaling in cardiomyocytes
+mmu04270,Vascular smooth muscle contraction
+mmu04310,Wnt signaling pathway
+mmu04330,Notch signaling pathway
+mmu04340,Hedgehog signaling pathway
+mmu04350,TGF-beta signaling pathway
+mmu04360,Axon guidance
+mmu04370,VEGF signaling pathway
+mmu04380,Osteoclast differentiation
+mmu04390,Hippo signaling pathway
+mmu04510,Focal adhesion
+mmu04520,Adherens junction
+mmu04540,Gap junction
+mmu04550,Signaling pathways regulating pluripotency of stem cells
+mmu04610,Complement and coagulation cascades
+mmu04611,Platelet activation
+mmu04612,Antigen processing and presentation
+mmu04620,Toll-like receptor signaling pathway
+mmu04621,NOD-like receptor signaling pathway
+mmu04622,RIG-I-like receptor signaling pathway
+mmu04623,Cytosolic DNA-sensing pathway
+mmu04630,Jak-STAT signaling pathway
+mmu04650,Natural killer cell mediated cytotoxicity
+mmu04660,T cell receptor signaling pathway
+mmu04662,B cell receptor signaling pathway
+mmu04664,Fc epsilon RI signaling pathway
+mmu04666,Fc gamma R-mediated phagocytosis
+mmu04668,TNF signaling pathway
+mmu04670,Leukocyte transendothelial migration
+mmu04710,Circadian rhythm
+mmu04713,Circadian entrainment
+mmu04720,Long-term potentiation
+mmu04722,Neurotrophin signaling pathway
+mmu04723,Retrograde endocannabinoid signaling
+mmu04724,Glutamatergic synapse
+mmu04725,Cholinergic synapse
+mmu04726,Serotonergic synapse
+mmu04727,GABAergic synapse
+mmu04728,Dopaminergic synapse
+mmu04740,Olfactory transduction
+mmu04742,Taste transduction
+mmu04750,Inflammatory mediator regulation of TRP channels
+mmu04810,Regulation of actin cytoskeleton
+mmu04910,Insulin signaling pathway
+mmu04911,Insulin secretion
+mmu04912,GnRH signaling pathway
+mmu04913,Ovarian steroidogenesis
+mmu04914,Progesterone-mediated oocyte maturation
+mmu04915,Estrogen signaling pathway
+mmu04916,Melanogenesis
+mmu04917,Prolactin signaling pathway
+mmu04918,Thyroid hormone synthesis
+mmu04919,Thyroid hormone signaling pathway
+mmu04920,Adipocytokine signaling pathway
+mmu04921,Oxytocin signaling pathway
+mmu04922,Glucagon signaling pathway
+mmu04923,Regulation of lipolysis in adipocytes
+mmu04924,Renin secretion
+mmu04925,Aldosterone synthesis and secretion
+mmu04960,Aldosterone-regulated sodium reabsorption
+mmu04961,Endocrine and other factor-regulated calcium reabsorption
+mmu04962,Vasopressin-regulated water reabsorption
+mmu04970,Salivary secretion
+mmu04971,Gastric acid secretion
+mmu04972,Pancreatic secretion
+mmu04973,Carbohydrate digestion and absorption
+mmu04976,Bile secretion
+mmu05100,Bacterial invasion of epithelial cells
