@@ -37,13 +37,18 @@ Tutorial
 ------------------------
 
 1. Create environment
-
 ```
 $ conda env create -f tgpu.yml
 ```
 
 2. To execute R and Pyhon script in **_notebooks_** folder
+
 3. To perform retrival analysis by
 ```
 $ ./ retrieval_analysis.sh
+``` 
+
+4. Retrieval Analysis Result
+```
+$ python notebooks/load_retrieval_summary.py retrieval_analysis
 ```
