@@ -19,16 +19,28 @@ Project Organization
     │                             and a short `-` delimited description, e.g.
     │                            `1.0-initial-data-exploration`.
     │
+    ├── retrieval_analysis.sh  <- retrieval analysis
+    │
     ├── source                 <- External data sources
     │   └── README.md          <- The explanation of data source
+    │
+    ├── tgpu.yml               <- Ptyhon environment
     │
     ├── third_party            <- Source code from reference papers.
     │   ├── PMC5737331         <- Reference paper details.
     │   └── third_party.txt    <- Scripts to download or generate data
-    │
-    └── retrieval_analysis.sh  <- retrieval analysis
---------
+------------------------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 ==========================================================================================
 
 Tutorial
+------------------------
+
+1. Create environment
+------------------------
+
+conda env create -f tgpu.yml
+
+------------------------
+
+2. Execute R and Pyhon script in *notebook* folder
