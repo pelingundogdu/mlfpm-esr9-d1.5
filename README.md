@@ -12,7 +12,7 @@ Project Organization
     │
     ├── data
     │   ├── EXPERIMENT         <- The index information
-    │   ├── geneSCF            <- Pathway information from geneSCF tool, https://github.com/genescf
+    │   ├── geneSCF            <- Pathway information from geneSCF tool, <https://github.com/genescf>
     │   ├── pathways           <- The details of pathway information
     │   └── weights            <- The prior biological knowledge which includes into first hidden layer
     │
@@ -60,3 +60,5 @@ Tutorial
 Funding
 ------------------------
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the **Marie Sklodowska-Curie grant agreement no 813533**.
+
+More detail in <https://mlfpm.eu/>
