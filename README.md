@@ -9,8 +9,7 @@ Project Organization
 ------------------------
 
     proposed_model             <- Project folder
-    │    
-    ├── README.md              <- Project details
+    │
     ├── data
     │   ├── EXPERIMENT         <- The index information
     │   ├── geneSCF            <- Pathway information from geneSCF tool, https://github.com/genescf
@@ -21,16 +20,19 @@ Project Organization
     │                             and a short `-` delimited description, e.g.
     │                            `1.0-initial-data-exploration`
     │
-    ├── retrieval_analysis.sh  <- retrieval analysis
-    │
     ├── source                 <- External data sources
     │   └── README.md          <- The explanation of data source
     │
-    ├── tgpu.yml               <- Ptyhon environment
+    ├── third_party            <- Source code from reference papers
+    │   ├── PMC5737331         <- Reference paper code details
+    │   └── third_party.txt    <- reference paper link information
     │
-    └── third_party            <- Source code from reference papers
-        ├── PMC5737331         <- Reference paper code details
-        └── third_party.txt    <- reference paper link information
+    ├── README.md              <- Project details
+    │
+    ├── retrieval_analysis.sh  <- retrieval analysis
+    │
+    └── tgpu.yml               <- Ptyhon environment
+    
 ------------------------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 ==========================================================================================
