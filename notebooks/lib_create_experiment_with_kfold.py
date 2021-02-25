@@ -1,20 +1,13 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # Creating left out cell samples (2,4,6,8) for each experiment which are default, signaling and signaling/metabolic
 
-import tfm_data_operation as tfm_data
-# import tfm_neural_network as tfm_NN
-# import tfm_keras_tuner as tfm_kt
+import lib_data_operation as tfm_data
 
 # Required libraries
 import os
 import numpy as np
 import pandas as pd
-
 import warnings
 warnings.filterwarnings('ignore')
-
 from sklearn.model_selection import KFold
 
 # IMPORTING REQUIRED DATASETS

@@ -1,29 +1,15 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-
-
 # Required libraries
 import os
-# import glob
 import numpy as np
 import pandas as pd
 import datetime as dt
-# import warnings
-# warnings.filterwarnings('ignore')
-
 import statistics as statistics
-
-# from sklearn.model_selection import train_test_split, KFold
 from sklearn.preprocessing import MinMaxScaler, StandardScaler, OneHotEncoder
 from sklearn.metrics import accuracy_score, homogeneity_score, completeness_score, v_measure_score, adjusted_rand_score, adjusted_mutual_info_score, fowlkes_mallows_score
-
-# from tensorflow import keras
 import tensorflow.keras.backend as K
 from tensorflow.keras import optimizers
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.layers import Dense, Activation, Dropout, Input
-
 
 ########################################################################################################################################################################
 # Converting OneHotEncoder array as list
@@ -168,45 +154,3 @@ class TFM_NNExperiment(object):
                                              , name_of_design_=self.design_name_)
         
         return(model_NN, metric)
-
-
-
-
-########################################################################################################################################################################
-# Creating score matrix for  original paper scores
-# def def_network_run_get_metrics_org(y_pred_, y_test_, bio_info_, name_of_design_):
-#     list_homo, list_comp, list_vmes, list_ari, list_ami, list_fm = [],[],[],[],[],[]
-
-#     pred, test = def_convert_one_hot_encoder_to_list(y_pred_, y_test_)
-
-#     list_homo.append(homogeneity_score(pred,test)*100)
-#     list_comp.append(completeness_score(pred,test)*100)
-#     list_vmes.append(v_measure_score(pred,test)*100)
-#     list_ari.append(adjusted_rand_score(pred,test)*100)
-#     list_ami.append(adjusted_mutual_info_score(pred,test)*100)
-#     list_fm.append(fowlkes_mallows_score(pred,test)*100)
-    
-#     print('The mean of homogeneity score (with {0})       ; {1:.2f}'.format(bio_info_, statistics.mean(list_homo)))
-#     print('The mean of completeness score (with {0})      ; {1:.2f}'.format(bio_info_, statistics.mean(list_comp)))
-#     print('The mean of v-measure score (with {0})         ; {1:.2f}'.format(bio_info_, statistics.mean(list_vmes)))
-#     print('The mean of ari score (with {0})               ; {1:.2f}'.format(bio_info_, statistics.mean(list_ari)))
-#     print('The mean of ami score (with {0})               ; {1:.2f}'.format(bio_info_, statistics.mean(list_ami)))
-#     print('The mean of fowlkes-mallows score (with {0})   ; {1:.2f}'.format(bio_info_, statistics.mean(list_fm)))
-#     print('The mean (with {0})                            ; {1:.2f}'.format(bio_info_, statistics.mean([statistics.mean(list_homo)
-#                                                                        , statistics.mean(list_comp)
-#                                                                        , statistics.mean(list_vmes)
-#                                                                        , statistics.mean(list_ari)
-#                                                                        , statistics.mean(list_ami)
-#                                                                        , statistics.mean(list_fm)]
-#                                                                       )))   
-    
-#     df_metric = pd.DataFrame(list([bio_info_+name_of_design_, statistics.mean(list_homo), statistics.mean(list_comp), statistics.mean(list_vmes)
-#                                                 , statistics.mean(list_ari), statistics.mean(list_ami), statistics.mean(list_fm)
-#                                                 , statistics.mean( [statistics.mean(list_homo)
-#                                                                , statistics.mean(list_comp)
-#                                                                , statistics.mean(list_vmes)
-#                                                                , statistics.mean(list_ari)
-#                                                                , statistics.mean(list_ami)
-#                                                                , statistics.mean(list_fm)]
-#                                                               ) ])).T
-#     return(df_metric)
