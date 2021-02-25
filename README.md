@@ -3,7 +3,7 @@
 
 This repository consists of python scripts, jupyter notebooks, R scripts, datasets, source codes, figures, evaluation metrics of the network which are created or obtained for this project.
 
-====================================================================================
+=================================================
 
 Project Organization
 ------------------------
@@ -35,7 +35,7 @@ Project Organization
     
 ------------------------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-====================================================================================
+=================================================
 
 Tutorial
 ------------------------
@@ -56,3 +56,7 @@ Tutorial
 ```
 .../proposed_model$ python notebooks/load_retrieval_summary.py retrieval_analysis
 ```
+
+Funding
+------------------------
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the **Marie Sklodowska-Curie grant agreement no 813533**.
